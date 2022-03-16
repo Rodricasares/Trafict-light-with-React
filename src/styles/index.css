@@ -10,3 +10,60 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.box{
+display: flex;
+flex-flow: column wrap;
+margin: auto;
+width: 200px;
+height: 500px;
+border-radius: 20px;
+background-color: black;
+color: black;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.green{
+    height:100px;
+    width:100px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    background-color: green;
+    margin: auto;
+    text-align: center;
+    
+  
+}
+.yellow{
+    height:100px;
+    width:100px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+.red{
+    height:100px;
+    width:100px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    background-color: red;
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+ .glow{
+    height:100px;
+    width:100px;
+    box-shadow: 1px 2px 17px 20px #f5f5fcfd;
+    margin: auto;
+   
+}
